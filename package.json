@@ -1,0 +1,38 @@
+{
+  "name": "react-native-ticker",
+  "version": "5.2.0",
+  "description": "React Native Number Ticker",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "build": "tsc"
+  },
+  "author": "Jason Brown (browniefed)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/browniefed/react-native-ticker.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "ticker",
+    "animated"
+  ],
+  "bugs": {
+    "url": "https://github.com/browniefed/react-native-ticker/issues"
+  },
+  "homepage": "https://github.com/browniefed/react-native-ticker#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-native": "^0.67.0",
+    "typescript": "^4.5.5",
+    "react-native": "^0.67.3",
+    "react-native-reanimated": "^2.4.1"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.67.3",
+    "react-native-reanimated": "^2.4.1"
+  }
+}
